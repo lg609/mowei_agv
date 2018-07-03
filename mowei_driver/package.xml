@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>mowei_driver</name>
+  <version>0.0.1</version>
+  <description>The mowei_driver package for connect with the agv controller </description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag --> 
+  <author email="liug@our-robotics.com">Allen Liu</author>
+  <maintainer email="liug@our-robotics.com">Allen Liu</maintainer>
+  <url type="website">http://wiki.ros.org/</url>
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>mowei_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>mowei_msgs</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

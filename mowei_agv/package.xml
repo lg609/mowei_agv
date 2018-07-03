@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>mowei_agv</name>
+  <version>0.0.1</version>
+  <description>
+	Description,drivers, moveit and utilities for mowei agv.
+  </description>
+
+  <author email="liug@our-robotics.com">Allen Liu</author>
+  <maintainer email="liug@our-robotics.com">Allen Liu</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>mowei_driver</run_depend>
+  <run_depend>mowei_msgs</run_depend>
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+     <metapackage/>
+  </export>
+</package>
